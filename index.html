@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <!-- Animate.css CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- ==== CSS Files ===== -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/skins/color-1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- style switcher  -->
+  <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+  <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+  <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+  <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+  <link rel="stylesheet" href="css/style-switcher.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+</head>
+
+<body>
+  <!-- Simple Loading Screen -->
+  <div id="loading-screen">
+    <div class="simple-loader"></div>
+    <div class="loading-text">Loading...</div>
+  </div>
+  <!--========= Main Container Start ============ -->
+  <div class="main-container" id="mainContainer">
+    <!-- Aside Start  -->
+    <div class="aside">
+      <div class="logo">
+        <a href="#"><span>R</span>uma</a>
+      </div>
+      <div class="nav-toggler">
+        <span></span>
+      </div>
+      <ul class="nav">
+        <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+        <li><a href="#service"><i class="fa fa-list"></i>Services</a></li>
+        <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+        <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+      </ul>
+    </div>
+    <!-- Aside End  -->
+    <!-- Main Content start data-aos="fade-up"  -->
+    <div class="main-content">
+      <!-- Home Section start  -->
+      <section class="home active section scroll-section" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="home-info padd-15">
+              <h3 class="hello">Hello, my name is <span class="name">Ruma Jaiswar</span></h3>
+              <h3 class="my-profession">I'm a <span class="typing">Web Developer</span></h3>
+              <p>I'm a Web Developer skilled in HTML, CSS, JavaScript, React, Python, and SQL.
+                I have expertise in building responsive Frontend interfaces.
+                I also work on Backend development and databases or many more.....</p>
+              <a href="#contact" class="btn">Download CV</a>
+            </div>
+            <div class="home-img padd-15">
+              <img src="images/ruma.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Home Section end  -->
+      <!-- ----------------------------------------------------------------------------------------- -->
+      <!-- About Section start  -->
+      <section class="about section scroll-section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15 fade-in-up">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="about-text padd-15 wow" data-wow-duration="1s" data-wow-delay="0.5s">
+                  <h3>I'm Ruma Jaiswar and <span>Web Developer</span></h3>
+                  <p>I’m Ruma Jaiswar, a passionate and detail-oriented Front-End Web Developer with a strong interest
+                    in creating responsive and user-friendly web applications. I have hands-on experience in HTML, CSS,
+                    JavaScript, React.js, and Bootstrap, which I use to build clean and interactive user interfaces.
+                    Along with frontend development, I also have knowledge of SQL and Python, which helps me understand
+                    backend logic and database management. I enjoy learning new technologies, improving my coding
+                    skills, and turning creative ideas into functional web experiences.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="personal-info padd-15 wow" data-wow-duration="1s" data-wow-delay="0.7s">
+                  <div class="row">
+                    <div class="info-item padd-15">
+                      <p>Birthday : <span>16 sep 2003</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Age : <span>22</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Website : <span>www.domain.com</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Email : <span>rumajaiswar1693@gmail.com</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Degree : <span>BSC-IT</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Phone : <span>+91 7058424322</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>City : <span>Mumbai</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Freelance : <span>Available</span></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="buttons padd-15">
+                      <a href="#contact" data-section-index="1" class="btn hire-me">Hire me</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills padd-15 wow" data-wow-duration="1s" data-wow-delay="0.9s">
+                  <div class="row">
+                    <div class="skill-item padd-15 ">
+                      <h5>HTML</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width:96%"></div>
+                        <div class="skill-percent">96%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15 ">
+                      <h5>CSS</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width:76%"></div>
+                        <div class="skill-percent">76%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>JAVASCRIPT</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width:86%"></div>
+                        <div class="skill-percent">86%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>BOOTSTRAP</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width:78%"></div>
+                        <div class="skill-percent">78%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>REACT</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width:60%"></div>
+                        <div class="skill-percent">60%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>SQL</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width:55%"></div>
+                        <div class="skill-percent">55%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>PYTHON</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width:70%"></div>
+                        <div class="skill-percent">70%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>DJANGO</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width:55%"></div>
+                        <div class="skill-percent">55%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="education padd-15 wow">
+                  <h3 class="title">Education</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i>2023-2024
+                          </h3>
+                          <h4 class="timeline-title">Bachelor's in Information Technology</h4>
+                          <p class="timeline-text">I have completed my Bachelor of Science in Information Technology
+                            (B.Sc. IT), where I gained a strong foundation in programming, web development, databases,
+                            and software concepts. During my studies, I developed an interest in front-end development
+                            and started building interactive web projects using HTML, CSS, JavaScript, and React.js.</p>
+                        </div>
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i>2019-2021
+                          </h3>
+                          <h4 class="timeline-title">Higher Secondary Certificate</h4>
+                          <p class="timeline-text">Swami Vivekanand Vidyalaya & Junior College - 70%</p>
+                        </div>
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i>2018-2019
+                          </h3>
+                          <h4 class="timeline-title">Secondary School Certificate</h4>
+                          <p class="timeline-text">Vidya Varidhi Vidyalaya & Junior College - 70.17%</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="experience padd-15 fade-in-right">
+                  <h3 class="title">Experience</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i>2023-2024
+                          </h3>
+                          <h4 class="timeline-title">Bachelor's in Information Technology</h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                            laboriosam suscipit quos distinctio quas, optio necessitatibus repellendus, rerum commodi.
+                          </p>
+                        </div>
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i>2023-2024
+                          </h3>
+                          <h4 class="timeline-title">Bachelor's in Information Technology</h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                            laboriosam suscipit quos distinctio quas, optio necessitatibus repellendus, rerum commodi.
+                          </p>
+                        </div>
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i>2023-2024
+                          </h3>
+                          <h4 class="timeline-title">Bachelor's in Information Technology</h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                            laboriosam suscipit quos distinctio quas, optio necessitatibus repellendus, rerum commodi.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section end  -->
+      <!-- ---------------------------------------------------------------------------------------- -->
+      <!-- Services Section start  -->
+      <section class="service section" id="service">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15 fade-in-up">
+              <h2>Services</h2>
+            </div>
+          </div>
+          <div class="row fadeanimation">
+            <div class="service-item padd-15 animate">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-mobile-alt"></i>
+                </div>
+                <h4>Web Design</h4>
+                <p>Creative and responsive web design that enhances user experience beautifully.
+                </p>
+              </div>
+            </div>
+            <div class="service-item padd-15 animate">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-laptop-code"></i>
+                </div>
+                <h4>Web Development</h4>
+                <p>Building dynamic and functional websites with clean, efficient, and modern code.
+                </p>
+              </div>
+            </div>
+            <div class="service-item padd-15 animate">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-palette"></i>
+                </div>
+                <h4>UI/UX Design</h4>
+                <p>Designing intuitive and visually appealing interfaces for seamless user experiences.
+                </p>
+              </div>
+            </div>
+            <div class="service-item padd-15 animate">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-code"></i>
+                </div>
+                <h4>Frontend Development</h4>
+                <p>Creating interactive and responsive web interfaces using modern frontend technologies.
+                </p>
+              </div>
+            </div>
+            <div class="service-item padd-15 animate">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-search"></i>
+                </div>
+                <h4>SEO Optimization</h4>
+                <p>Improving website visibility and ranking on search engines effectively.
+                </p>
+              </div>
+            </div>
+            <div class="service-item padd-15 animate">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-bullhorn"></i>
+                </div>
+                <h4>Digital Marketing</h4>
+                <p>Promoting brands online to increase reach, engagement, and conversions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services Section end  -->
+      <!-- ---------------------------------------------------------------------------------------- -->
+      <!-- Portfolio section Start  -->
+      <section class="portfolio section" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15 fade-in-up">
+              <h2>Portfolio</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="section__header fade-in-up">
+              <h2>My Recent Projects</h2>
+              <p>
+                Here are some of my recent projects
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio_1 padd-15 fadeanimation" data-aos="fade-up" data-aos-delay="200">
+              <article class="portfolio__item ">
+                <div class="portfolio__item--image">
+                  <img src="images/elearning.png" alt="">
+                </div>
+                <div class="portfolio__item--content">
+                  <h4>E-Learning Clone Website</h4>
+                  <p>
+                    Developed a responsive online learning platform with course browsing, instructor profiles,
+                    subscription plans, and blogs and Used HTML, CSS, JavaScript, Bootstrap for a clean, mobile-friendly
+                    UI
+                  </p>
+                  <div class="portfolio__item--cta">
+                    <a href=" https://elearning-clone.netlify.app/" target="_blank" rel="noopener noreferrer"
+                      class="btn">
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="portfolio_1 padd-15 fadeanimation" data-aos="fade-up" data-aos-delay="300">
+              <article class="portfolio__item ">
+                <div class="portfolio__item--image">
+                  <img src="images/mobirise.png" alt="">
+                </div>
+                <div class="portfolio__item--content">
+                  <h4>Mobirise Website</h4>
+                  <p>
+                    Built a responsive landing page inspired by Mobirise themes with sections like About, Services, or
+                    Contact and Applied Bootstrap components for modern design and real-world usability
+                  </p>
+                  <div class="portfolio__item--cta">
+                    <a href=" https://elearning-clone.netlify.app/" target="_blank" rel="noopener noreferrer"
+                      class="btn">
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="portfolio_1 padd-15 fadeanimation" data-aos="fade-up" data-aos-delay="200">
+              <article class="portfolio__item ">
+                <div class="portfolio__item--image">
+                  <img src="images/elearning.png" alt="">
+                </div>
+                <div class="portfolio__item--content">
+                  <h4>E-Learning Clone Website</h4>
+                  <p>
+                    Developed a responsive online learning platform with course browsing, instructor profiles,
+                    subscription plans, and blogs and Used HTML, CSS, JavaScript, Bootstrap for a clean, mobile-friendly
+                    UI
+                  </p>
+                  <div class="portfolio__item--cta">
+                    <a href=" https://elearning-clone.netlify.app/" target="_blank" rel="noopener noreferrer"
+                      class="btn">
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="portfolio_1 padd-15 fadeanimation" data-aos="fade-up" data-aos-delay="300">
+              <article class="portfolio__item ">
+                <div class="portfolio__item--image">
+                  <img src="images/mobirise.png" alt="">
+                </div>
+                <div class="portfolio__item--content">
+                  <h4>Mobirise Website</h4>
+                  <p>
+                    Built a responsive landing page inspired by Mobirise themes with sections like About, Services, or
+                    Contact and Applied Bootstrap components for modern design and real-world usability
+                  </p>
+                  <div class="portfolio__item--cta">
+                    <a href=" https://elearning-clone.netlify.app/" target="_blank" rel="noopener noreferrer"
+                      class="btn">
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+      <!-- Portfolio section end--- -->
+      <!-- ---------------------------------------------------------------------------------------- -->
+      <!-- Contact section start--- -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <h3 class="contact-title padd-15 ">Have You Any Questions ?</h3>
+          <h4 class="contact-sub-title padd-15 ">I'M AT YOUR SERVICES</h4>
+          <div class="row">
+            <div class="contact-info-item padd-15 fadeanimation">
+              <div class="icon"><i class="fa fa-phone"></i></div>
+              <h4>Call Us On</h4>
+              <p>+91 7058424322</p>
+            </div>
+            <div class="contact-info-item padd-15 fadeanimation">
+              <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+              <h4>Office</h4>
+              <p>Mumbai</p>
+            </div>
+            <div class="contact-info-item padd-15 fadeanimation">
+              <div class="icon"><i class="fa fa-envelope"></i></div>
+              <h4>Email</h4>
+              <p>rumajaiswar1693@gmail.com</p>
+            </div>
+            <div class="contact-info-item padd-15 fadeanimation">
+              <div class="icon"><i class="fa fa-globe-europe"></i></div>
+              <h4>Website</h4>
+              <p>www.domain.com</p>
+            </div>
+          </div>
+          <h3 class="contact-title padd-15 ">SEND ME AN EMAIL</h3>
+          <h4 class="contact-sub-title padd-15 ">I'M VERY RESPONSIVE TO MESSAGES</h4>
+          <!-- contact form  -->
+          <div class="row">
+            <div class="contact-form padd-15 fade-in-up">
+              <div class="row formInput fadeanimation">
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name">
+                  </div>
+                </div>
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+              </div>
+              <div class="row formInput fadeanimation">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="subject">
+                  </div>
+                </div>
+              </div>
+              <div class="row formInput fadeanimation">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <textarea name="" class="form-control" placeholder="Message"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row formInput fadeanimation">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact section end--- -->
+    </div>
+    <!-- Main Content end   -->
+  </div>
+  <!--========== Main Container End ================ -->
+  <!-- style switcher start  -->
+  <div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+      <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day-night s-icon">
+      <i class="fas "></i>
+    </div>
+    <h4>Theme Colors</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+  </div>
+  <!-- style switcher end  -->
+  <!-- ==== JS Files ====  -->
+  <!-- CDN for Typed.js -->
+  <script src="js/style-switcher.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script> -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
