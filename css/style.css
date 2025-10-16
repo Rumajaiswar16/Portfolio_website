@@ -409,6 +409,7 @@ h3.my-profession {
   color: var(--skin-color);
 }
 .about .about-content .about-text p {
+  text-align:justify;
   font-size: 16px;
   line-height: 25px;
   color: var(--text-black-700);
@@ -1094,3 +1095,4 @@ h3.my-profession {
 .wow {
   visibility: visible !important;
 }
+
